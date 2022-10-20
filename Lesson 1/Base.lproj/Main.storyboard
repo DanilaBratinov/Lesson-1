@@ -22,7 +22,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaZ-Eh-i7e">
-                                <rect key="frame" x="78.666666666666686" y="587" width="218" height="41"/>
+                                <rect key="frame" x="78.666666666666686" y="593.66666666666663" width="218" height="34.333333333333371"/>
                                 <color key="backgroundColor" red="0.98911413667232206" green="0.90236169702840419" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="218" id="1jE-mM-roO"/>
@@ -32,6 +32,9 @@
                                 <state key="normal" title="Show Greeting">
                                     <color key="titleColor" red="1" green="0.23812779656073102" blue="0.50462061430965888" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="filled" title="Show Greeting" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="greetingButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thg-LY-hZy"/>
                                 </connections>
